@@ -6,7 +6,9 @@
 
 // Code here
 
+let greeting = "Hi";
 
+let farewell = 'Goodbye';
 
 //////////////////PROBLEM 2////////////////////
 
@@ -16,7 +18,9 @@
 
 //Code here
 
-
+let hello = "Hello";
+let userName = 'alex';
+let salutation = hello += userName;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -24,7 +28,7 @@
 
 //Code here
 
-
+const seven = 7;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -33,7 +37,7 @@
 
 //Code here
 
-
+const money = 99999999999;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -41,7 +45,7 @@
 
 //Code here
 
-
+const awesome = true;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -52,10 +56,9 @@ let myCar = "Jeep";
 
 // Set the variable myCar to be null
 
-
 //Code here
 
-
+myCar = null;
 
 //////////////////PROBLEM 7////////////////////
 
@@ -64,7 +67,24 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let users = [
+  {
+    name: 'Alex',
+    age: 25
+  },
+  {
+    name: 'Sam',
+    age: 23
+  },
+  {
+    name: 'Bob',
+    age: 99
+  },
+  {
+    name: 'Bill',
+    age: 199
+  },
+]
 
 //////////////////PROBLEM 8////////////////////
 
@@ -75,7 +95,23 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let family = {
+  alex: test1 = {
+    hobbies: test4 = {
+      test: 'and more'
+    }
+  },
+  sam: test2 = {
+    hobbies: test5 =  {
+      test: 'something else'
+    }
+  },
+  julia: test3 = {
+    hobbies: test6 =  {
+      test: 'something'
+    }
+  },
+}
 
 //////////////////PROBLEM 9////////////////////
 
@@ -84,7 +120,7 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let gameScores = [top = [99999, 99988], rank = [1000, 5000], life = [50, 100]]
 
 //////////////////PROBLEM 10////////////////////
 
@@ -93,7 +129,23 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let people = [
+  {
+    name: 'frodo',
+    gender: 'male',
+    height: 3
+  },
+  {
+    name: 'sam',
+    gender: 'male',
+    height: 3
+  },
+  {
+    name: 'gollum',
+    gender: 'male',
+    height: 3
+  },
+]
 
 //////////////////PROBLEM 11////////////////////
 
@@ -102,7 +154,11 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let cowboy = {
+  name: 'robert',
+  state: 'new mexico',
+  favoriteCountrySong: 'boll weevil'
+}
 
 //////////////////PROBLEM 12////////////////////
 
@@ -132,14 +188,14 @@ function launch() {
 
 //Code here
 
-
+let dataTypes = [42, "meaning", true, [1, 2, 3, 4, 5], spaceship, launch];
 
 //////////////////PROBLEM 13////////////////////
 
 // Edit the function called "sum" so that when it is invoked, it returns the sum of its parameters num1 and num2
 
 function sum(num1, num2){
-  return // Code here
+  return num1 + num2
 };
   
 
@@ -150,11 +206,13 @@ function sum(num1, num2){
 
 // Code here
 
+let number1 = 10
+let number2 = 5
 
 // Next, edit the function called "multiply" so that when it is invoked, it returns the result of multiplying number1 and number2
 
 function multiply() {
-  return // Code here
+  return number1 * number2
 };
 
 
@@ -170,7 +228,7 @@ let food = 'pizza';
 // In your solution code, use template strings (not concatenation) and use the food variable provided
 
 function favFood(){
-  return // Code here
+  return `My favorite food is ${food}`
 };
 
 
@@ -187,7 +245,7 @@ let theBoss;
 // the function assigns the value of theName to theBoss variable
 
 function assignName(name){
-  // Code here
+  return theBoss = name
 };
 
 
@@ -207,7 +265,7 @@ let user = {
 // edit the function getName so that it accesses the name property of the user object and returns its value
 
 function getName(userObj){
-  return // Code here
+  return user.name
 };
 
 
