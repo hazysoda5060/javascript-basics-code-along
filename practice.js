@@ -287,7 +287,7 @@ let calendar = {
 // Make sure you are accessing it from the weekDays array of the calendar object
 
 function getWeekDay(calendar){
-  return // Code here
+  return calendar.weekDays[2]
 }
 
 
@@ -298,7 +298,9 @@ function getWeekDay(calendar){
 
 // Code here
 
-
+function fn(param){
+  return param
+}
 
 //////////////////PROBLEM 20////////////////////
 
@@ -313,7 +315,9 @@ let lastName = "Jones";
 
 // Code here
 
-
+function createName(){
+  return firstName + ' ' + lastName
+}
 
 //////////////////PROBLEM 21////////////////////
 
@@ -321,7 +325,9 @@ let lastName = "Jones";
 
 // Code here
 
-
+function showMeSeven(){
+  return 7
+}
 
 //////////////////PROBLEM 22////////////////////
 
@@ -329,7 +335,9 @@ let lastName = "Jones";
 
 // Code here
 
-
+function multiplier(num1, num2){
+  return num1 * num2
+}
 
 //////////////////PROBLEM 23////////////////////
 
