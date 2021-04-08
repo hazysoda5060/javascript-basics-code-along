@@ -467,11 +467,11 @@ age = "TBD";
 // The variable age will always be a number and will be changed during testing
 
 function findCorrectTransportation(){
-  if (age === 3, 4, 5, 6, 7) {
+  if (age >= 3 && age <= 7) {
     return 'tricycle'
-  } else if (age === 8, 9, 10, 11, 12, 13, 14, 15) {
+  } else if (age >= 8 && age <= 15) {
     return 'bicycle'
-  } else if (age > 15) {
+  } else if (age >= 16) {
     return 'car'
   }
 };
