@@ -494,10 +494,14 @@ let temp = "TBD";
 // The variable age will always be a number and will be changed during testing
 
 function doIGetIceCream(){
-  // Code here
+  if (temp === 'hot' && cash === true) {
+    return 'Get Ice Cream!'
+  } else {
+    return 'Save up for another day.'
+  }
 };
 
-
+// !! not sure if anyone checks this but there's a typo. comment requests i check the money variable for a true value, when the correct variable to check is cash.
 
 //////////////////PROBLEM 31////////////////////
 
@@ -514,7 +518,9 @@ let work = "TBD";
 // The chores and work variables will always be true or false and will be changed during testing
 
 function doIHaveFreeTime(){
-  // Code here
+  if (chores === false || work === false){
+    return 'free time!'
+  }
 };
 
 
@@ -536,7 +542,9 @@ let brakes = "TBD";
 // The brakes variables will always be a boolean and will be changed during testing
 
 function setCrash(){
-  // Code here
+  if (currentSpeed === 'fast' && brakes != true){
+    return crash = true
+  }
 };
 
 
@@ -560,7 +568,13 @@ user = {
 
 // Code here
 
-
+function makePurchase(priceOfItem){
+  if (priceOfItem <= user.total){
+    return user.total = user.total - priceOfItem
+  } else {
+    return 'not enough funds'
+  }
+};
 
 //////////////////PROBLEM 34////////////////////
 
@@ -590,3 +604,13 @@ function sleep(){
 // The arguments passed into decisionMaker will always be true or false and will be changed during testing
 
 // Code here
+
+function decisionMaker(hungry, tired){
+  if (hungry === true && tired === false){
+    return eat()
+  } else if (hungry === false && tired === true){
+    return sleep()
+  } else {
+    return 'undecided'
+  }
+}
