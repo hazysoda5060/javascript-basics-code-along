@@ -347,7 +347,9 @@ function multiplier(num1, num2){
 
 // Code here
 
-
+function sayHello(greeting, name){
+  return greeting + ' ' + name
+}
 
 //////////////////PROBLEM 24////////////////////
 
@@ -358,7 +360,12 @@ function multiplier(num1, num2){
 
 // Code here
 
-
+function makeExercise(exerciseName, duration){
+  return {
+    exerciseName: exerciseName,
+    duration: duration
+  }
+}
 
 //////////////////PROBLEM 25////////////////////
 
@@ -372,7 +379,11 @@ let age = "TBD";
 // The variable age will be changed during testing
 
 function isOldEnough(){
-  // Code here
+  if (age > 21) {
+    return 'old enough'
+  } else if (age < 21) {
+    return 'not yet'
+  }
 };
 
 
@@ -389,7 +400,11 @@ let workEthic = "TBD";
 // The variable workEthic will be changed during testing
 
 function successPredictor(){
-  // Code here
+  if (workEthic === 'great') {
+    return 'success at DevMountain'
+  } else {
+    return 'failure at DevMountain'
+  }
 };
 
 
@@ -406,7 +421,11 @@ let cookieType = "TBD";
 // The variable cookieType will be changed during testing
 
 function eatOrTrash(){
-  // Code here
+  if (cookieType === 'raisin') {
+    return 'throw in trash'
+  } else {
+    return 'eat'
+  }
 };
 
 
@@ -424,9 +443,12 @@ let yourTeamScore = "TBD";
 // The myTeamScore and yourTeamScore variables will be changed during testing
 
 function finalScore(){
-  // Code here
+  if (myTeamScore > yourTeamScore) {
+    return 'we are the champions'
+  } else {
+    return ':('
+  }
 };
-
 
 
 //////////////////PROBLEM 29////////////////////
@@ -445,7 +467,13 @@ age = "TBD";
 // The variable age will always be a number and will be changed during testing
 
 function findCorrectTransportation(){
-  // Code here
+  if (age === 3, 4, 5, 6, 7) {
+    return 'tricycle'
+  } else if (age === 8, 9, 10, 11, 12, 13, 14, 15) {
+    return 'bicycle'
+  } else if (age > 15) {
+    return 'car'
+  }
 };
 
 
